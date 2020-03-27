@@ -1,0 +1,129 @@
+body{
+  font-family: arial;
+}
+header{
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+main{
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  height: 50px;
+  background-color: #f3f3f3;
+  border: solid 1px #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  width: 80%;
+  height: 90%;
+  border: 0;
+  font-size: 20px;
+  background-color: white;
+}
+a{
+  margin-right: 10px;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+i{
+  font-size: 20px;
+  color: #727272;
+}
+i:hover{
+  color: black;
+}
+button{
+  border: solid 1px #f3f3f3;
+}
+img{
+  width: inherit;
+}
+.about, .customers{
+  display: flex;
+  align-items: center;
+}
+.about{
+  padding-left: 10px;
+}
+.customers{
+  padding-right: 10px;
+}
+.search{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.foot{
+  height: 50px;
+  background-color: #f3f3f3;
+  border: solid 1px #e4e4e4;
+  border-bottom: 0;
+  color: #5f6375;
+  display: flex;
+  padding-left: 10px;
+}
+.searchBar{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border: solid 1px lightslategrey;
+  border-radius: 25px;
+}
+.searchBar:hover{
+  box-shadow: 0 0 1px 1px lightslategrey;
+}
+.fa-search{
+  margin-right: -25px;
+}
+.searchButton{
+  display: flex;
+  justify-content: center;
+
+}
+.connexion{
+  background-color: #4385f5;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+}
+.connexion:hover{
+  background-color: lightskyblue;
+}
+.searchButton > button{
+  background-color: #f3f3f3;
+  color: #5f6375;
+  font-size: 15px;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.searchButton > button:hover{
+  border: solid 1px darkgrey;
+}
+.about > a, .customers > a{
+  color: #5f6375;
+}
